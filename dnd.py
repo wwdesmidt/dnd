@@ -86,6 +86,10 @@ def printAbilities():
 	return
 	
 
+def printSkills():
+	for k, v in skills.items():
+		print("{}: {}".format(k, abilitySavingThrow(v)))
+		
 
 
 #ability modifier based on table
@@ -109,3 +113,4 @@ printCharacterTitle()
 print("Hit Dice: {}".format(hitDice()))
 print("Proficiency Bonus: {}".format(proficiencyBonus()))
 printAbilities()
+printSkills()
