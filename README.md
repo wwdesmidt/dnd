@@ -4,19 +4,19 @@ beginnings of a command line dnd 5e character manager in python (to practice pyt
 
 notes
 -----
-race
+race: input
+
+class: input
+
+level: input
+
+initiative: ?
+
+speed: per race?
+
+Strength: rolled during characer creation + bonuses (equipment etc.) + below:
 
 
-
-class
-
-level
-
-initiative
-
-speed
-
-Strength
 Measures: Natural athleticism, bodily power
 Important for: Barbarian, fighter, paladin
 Racial Increases:
@@ -60,14 +60,18 @@ Half-elf (+2) Dragonborn (+1)
 Drow (+1) Human (+1)
 Lightfoot halfling (+1) Tiefling (+2)
 
-armor class (ac)
+armor class (ac): calculated from dex i believe
 
-hit points (hp)
+hit points (hp): input (rolled manually each level)
 
-hit dice
+hit dice: per class
 
-proficiency bonus
+proficiency bonus: based on abilities (above)
 
-passive perception
+passive perception: calculated from wisdom i believe
 
+
+
+class specific stuff: need to learn
+example wizard spell slots vs other classes, bardic inspiration? ammo?
 
